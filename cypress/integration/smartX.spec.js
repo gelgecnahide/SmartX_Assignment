@@ -52,3 +52,9 @@ describe.only('api testing', () => {
    
 })
 
+
+//3.Write up a couple of examples of how you would include DB validation if you had access to the DB (it can be in the form of bullet points).
+        // . I can use data constraints at the database level. I can add constraints to a table's columns, such as "not null," "unique," "foreign key," "check," etc. 
+        // . I can use a stored procedure is a pre-compiled set of SQL statements that can be executed repeatedly
+        // . I can use triggers database objects to validate data 
+        // . I can also do regular data cleaning to maintain the integrity of the data stored in the database. 

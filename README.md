@@ -16,8 +16,9 @@ NodeJS: https://nodejs.org/en/download
 2. Navigate to the project root directory -cypress-api-automation-framework
 3. Install dependencies with `npm install` 
 4. See scripts in `package.json` and run the tests. The main ones are
-* `npm run cy:open` - runs Cypress in GUI mode
-* `npm run cy:test` - runs cypress test in headless mode
+* `npx cypress open` - runs Cypress in GUI mode
+* `npx cypress run --record --key cc5f50b8-fdb3-4896-b068-9e201266fbfa` - runs cypress test in headless mode and displays the results in a report in Cypress Dashboard. Navigate https://cloud.cypress.io/projects/hk45yu/runs to see the results.
+
     
 # Application under test
 
